@@ -1,0 +1,25 @@
+{
+  "name": "tray-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KauanSampaio/tray-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KauanSampaio/tray-app/issues"
+  },
+  "homepage": "https://github.com/KauanSampaio/tray-app#readme",
+  "dependencies": {
+    "electron": "^12.0.9",
+    "electron-store": "^8.0.0"
+  }
+}
