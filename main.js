@@ -24,7 +24,7 @@ app.on('ready', () => {
   const contextMenu = Menu.buildFromTemplate([
     { label: 'Item1', type: 'radio', checked: true, click: () =>{
       //Função realizada ao clicar 'Item1' no tray
-      const [path] = dialog.showOpenDialog({ properties: ['openDirectory'] }); //Mostra uma tela para o usuário abrir uma pasta e pega o caminho
+      const [path] = dialog.showOpenDialog({ properties: ['openDirectory'] }); //Mostra uma tela para o usuário abrir uma pasta e salva o caminho
       store.set('projects[]', JSON.stringify([ ... projects, path]));
     }}
   ]);
